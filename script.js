@@ -54,7 +54,9 @@ document.addEventListener('DOMContentLoaded', function(){
       errormsgdisplay.classList.remove('hidden');
 
       setTimeout(() => {
-        weatherinfo.textContent = "";
+        citynamedisplay.textContent = '';
+        temperaturedisplay.textContent = '';
+        descdisplay.textContent = '';
         weatherinfo.classList.remove('hidden');
         errormsgdisplay.classList.add('hidden');
       }, 4000);
