@@ -54,6 +54,7 @@ document.addEventListener('DOMContentLoaded', function(){
       errormsgdisplay.classList.remove('hidden');
 
       setTimeout(() => {
+        weatherinfo.textContent = "";
         weatherinfo.classList.remove('hidden');
         errormsgdisplay.classList.add('hidden');
       }, 4000);
