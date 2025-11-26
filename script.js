@@ -52,13 +52,5 @@ document.addEventListener('DOMContentLoaded', function(){
     function displayerror(){
       weatherinfo.classList.add('hidden');
       errormsgdisplay.classList.remove('hidden');
-
-      setTimeout(() => {
-        citynamedisplay.textContent = '';
-        temperaturedisplay.textContent = '';
-        descdisplay.textContent = '';
-        weatherinfo.classList.remove('hidden');
-        errormsgdisplay.classList.add('hidden');
-      }, 4000);
     }
 })
